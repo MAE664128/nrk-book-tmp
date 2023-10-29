@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../mail/mail_extractor.html"><strong aria-hidden="true">1.</strong> Отслеживание и извлечение почтовых сообщений</a></li><li class="chapter-item expanded "><a href="../mail/attache_mail_extractor.html"><strong aria-hidden="true">2.</strong> Извлечение файлов из почтовых сообщений</a></li><li class="chapter-item expanded "><a href="../mail/geo_extractor.html"><strong aria-hidden="true">3.</strong> Извлечение геолокации из писем</a></li><li class="chapter-item expanded "><a href="../mail/mail_find.html"><strong aria-hidden="true">4.</strong> Фильтрация/Поиск писем</a></li><li class="chapter-item expanded "><a href="../mail/mail_label.html"><strong aria-hidden="true">5.</strong> Метки к письму</a></li><li class="chapter-item expanded "><a href="../post/mail_to_post.html"><strong aria-hidden="true">6.</strong> Создание поста из письма</a></li><li class="chapter-item expanded "><a href="../post/to_to.html"><strong aria-hidden="true">7.</strong> Быстрый переход от письма к посту и обратно</a></li><li class="chapter-item expanded "><a href="../post/post_find.html" class="active"><strong aria-hidden="true">8.</strong> Фильтрация/Поиск постов</a></li><li class="chapter-item expanded "><a href="../post/post_label.html"><strong aria-hidden="true">9.</strong> Метки к посту</a></li><li class="chapter-item expanded "><a href="../post/post_attach.html"><strong aria-hidden="true">10.</strong> Редактор: добавить видео из вложения</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../mail/mail_extractor.html"><strong aria-hidden="true">1.</strong> Отслеживание и извлечение почтовых сообщений</a></li><li class="chapter-item expanded "><a href="../mail/attache_mail_extractor.html"><strong aria-hidden="true">2.</strong> Извлечение файлов из почтовых сообщений</a></li><li class="chapter-item expanded "><a href="../mail/geo_extractor.html"><strong aria-hidden="true">3.</strong> Извлечение геолокации из писем</a></li><li class="chapter-item expanded "><a href="../mail/mail_find.html"><strong aria-hidden="true">4.</strong> Фильтрация/Поиск писем</a></li><li class="chapter-item expanded "><a href="../mail/mail_label.html"><strong aria-hidden="true">5.</strong> Метки к письму</a></li><li class="chapter-item expanded "><a href="../post/mail_to_post.html"><strong aria-hidden="true">6.</strong> Создание поста из письма</a></li><li class="chapter-item expanded "><a href="../post/to_to.html"><strong aria-hidden="true">7.</strong> Быстрый переход от письма к посту и обратно</a></li><li class="chapter-item expanded "><a href="../post/post_find.html" class="active"><strong aria-hidden="true">8.</strong> Фильтрация/Поиск постов</a></li><li class="chapter-item expanded "><a href="../post/post_label.html"><strong aria-hidden="true">9.</strong> Метки к посту</a></li><li class="chapter-item expanded "><a href="../post/post_attach.html"><strong aria-hidden="true">10.</strong> Редактор: добавить видео из вложения</a></li><li class="chapter-item expanded "><a href="../post/edit_title_post.html"><strong aria-hidden="true">11.</strong> Редактор: редактировать заголовок поста</a></li><li class="chapter-item expanded "><a href="../post/edit_date_post.html"><strong aria-hidden="true">12.</strong> Редактор: редактировать даты начала и окончания публикации</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -205,22 +205,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
